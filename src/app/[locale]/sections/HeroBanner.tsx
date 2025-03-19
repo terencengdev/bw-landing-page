@@ -13,7 +13,11 @@ export default function HeroBanner() {
   const container = useRef<HTMLImageElement>(null);
   useGSAP(
     () => {
-      gsap.to(".banner-hand-img img", { opacity: 1, duration: 0.6 });
+      gsap.to(".banner-hand-img img", {
+        opacity: 1,
+        duration: 0.6,
+        delay: 0.4,
+      });
     },
     { scope: container }
   );
