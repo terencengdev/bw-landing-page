@@ -24,3 +24,7 @@ npm install
 Then you can view the site according to the port number:
 
 http://localhost:3000/en or http://localhost:3200/zh-tw
+
+- credential for login -
+  username:terencejiahao@gmail.com
+  password:password

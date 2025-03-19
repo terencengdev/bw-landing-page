@@ -21,6 +21,7 @@ interface FormInput {
 interface User {
   firstName: string;
   email: string;
+  password: string;
 }
 
 interface ModalProps {
@@ -49,6 +50,7 @@ export default function RegisterModal({ onClose }: ModalProps) {
       updateUser(newUser);
       setTimeout(() => {
         onClose();
+        window.location.reload();
       }, 2000);
     } catch (error) {
       console.log(error);
