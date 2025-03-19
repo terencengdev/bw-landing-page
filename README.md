@@ -17,7 +17,7 @@ mkdir blackwellinvest-landing
 
 cd blackwellinvest-landing
 
-git clone https://github.com/terencengdev/bw-landing-page.git
+git clone https://github.com/terencengdev/bw-landing-page.git .
 
 npm install
 
