@@ -1,1 +1,1 @@
-# nextjs-landing-page
+# bw-landing-page
