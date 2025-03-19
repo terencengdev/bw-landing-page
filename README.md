@@ -21,6 +21,8 @@ git clone https://github.com/terencengdev/bw-landing-page.git .
 
 npm install
 
+npm run dev
+
 Then you can view the site according to the port number:
 
 http://localhost:3000/en or http://localhost:3200/zh-tw
