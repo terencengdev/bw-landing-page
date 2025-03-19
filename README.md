@@ -13,13 +13,13 @@
 
 To View the Project, use the following command in command prompt:
 
-mkdir folder
+mkdir blackwell-landing
 
-cd folder
+cd blackwell-landing
 
 git clone https://github.com/terencengdev/bw-landing-page.git
 
-run npm install
+npm install
 
 Then you can view the site according to the port number:
 
