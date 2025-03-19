@@ -11,11 +11,11 @@
 - Fullly Responsive
 - Multiple locale (en, zh-tw)
 
-To View the Project, use the following command in command prompt:
+To View the Project, use the following command in Terminal/git bash/powershell:
 
-mkdir blackwell-landing
+mkdir blackwellinvest-landing
 
-cd blackwell-landing
+cd blackwellinvest-landing
 
 git clone https://github.com/terencengdev/bw-landing-page.git
 
