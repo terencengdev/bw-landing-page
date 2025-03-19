@@ -39,7 +39,7 @@ export default function Tabs({ children }: any) {
     <div className="horizontal-tabs">
       <div className="tabs-navigation flex flex-[0_0_auto]">
         {tabs.map((child: any, index: any) => {
-          const dataIcon = child.props["data-icon"];
+          const dataIcon = child.icon;
           return (
             <a
               href="#"
